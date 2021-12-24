@@ -182,13 +182,13 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg.jpeg") top right;
+  background: url("../img/mihaela.jpeg") top right;
   background-size: cover;
   position: relative;
 }
 #hero:before {
   content: "";
-  background: rgba(192, 192, 192, 0.65);
+  background: rgba(192, 192, 192, 0.247);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -227,10 +227,11 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 75px;
   font-family: "Satisfy", serif;
-  color: #2b6777;
+  color: #c8d8e4;
+
 }
 #hero h2 {
-  color: #2b6777;
+  color: #c8d8e4;
   margin-bottom: 50px;
   font-size: 18px;
   font-weight: 800;
@@ -244,11 +245,9 @@ h6 {
 }
 #hero .btn-scroll i {
   font-size: 65px;
-  color: #2b6777;
+  color: #c8d8e4;
 }
-#hero .btn-scroll:hover {
-  color: #2b6777;
-}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -1018,3 +1017,16 @@ section {
 
 
 
+.map-container {
+  overflow:hidden;
+  padding-bottom:58.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
