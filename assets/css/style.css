@@ -515,6 +515,16 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.resume .resume-item .gpa {
+  font-size: 14px;
+  padding: 5px 10px;
+  color:white;
+  background-color: #2b6777;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
