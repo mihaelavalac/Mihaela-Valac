@@ -1054,5 +1054,12 @@ section {
   transition: all .25s ease;
 } 
 
+.download-resume, .download-resume:hover {
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #2b6777;
+}
 
 
