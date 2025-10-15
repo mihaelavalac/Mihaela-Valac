@@ -9,7 +9,12 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" class="logo-title" href="assets/img/logos/logo-mv.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      class="logo-title"
+      href="assets/img/logos/logo-mv.png"
+      type="image/x-icon"
+    />
 
     <!-- Google Fonts -->
     <link
@@ -41,13 +46,7 @@
     <!-- ======= Header ======= -->
     <header
       id="header"
-      class="
-        fixed-top
-        d-flex
-        justify-content-center
-        align-items-center
-        header-transparent
-      "
+      class="fixed-top d-flex justify-content-center align-items-center header-transparent"
     >
       <nav id="navbar" class="navbar">
         <ul>
@@ -64,18 +63,146 @@
       </nav>
     </header>
 
+    <!-- ======= Featured Projects ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>
+            Selected work highlighting full-stack development, APIs, cloud, and
+            scalable UI systems.
+          </p>
+        </div>
+
+        <div class="row portfolio-container">
+          <!-- Schema-Driven Forms -->
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/form.svg"
+                class="img-fluid"
+                alt="Schema-driven forms engine"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Schema-Driven Forms Engine</h4>
+              <p>
+                React/Angular system that renders multi-step forms from
+                JSON/schema with rules, actions, and validation. Included
+                reusable components, custom hooks/context, and carrier branding
+                via a brand context wrapper.
+              </p>
+              <p class="mb-1">
+                <strong>Impact:</strong> reduced form delivery time from months
+                → days
+              </p>
+              <p class="mb-0">
+                <strong>Tech:</strong>
+                <span class="tech-chip">React</span>
+                <span class="tech-chip">Angular</span>
+                <span class="tech-chip">TypeScript</span>
+                <span class="tech-chip">JSON Schema</span>
+                <span class="tech-chip">Jest</span>
+                <span class="tech-chip">Pytest</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- APIs & Auth -->
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/api.svg"
+                class="img-fluid"
+                alt="APIs and authorization"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Customer-Facing APIs & Authorization</h4>
+              <p>
+                REST/GraphQL endpoints with strong validation
+                (Pydantic/Marshmallow) and JWT-based auth with endpoint scopes.
+                Case-specific exceptions for reliable error handling and clearer
+                client feedback.
+              </p>
+              <p class="mb-0">
+                <strong>Tech:</strong>
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Flask</span>
+                <span class="tech-chip">OpenAPI</span>
+                <span class="tech-chip">Pydantic</span>
+                <span class="tech-chip">Marshmallow</span>
+                <span class="tech-chip">JWT</span>
+                <span class="tech-chip">GraphQL</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Reporting & Invoicing -->
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/report.svg"
+                class="img-fluid"
+                alt="Automated reporting and invoicing"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Automated Reporting & Invoicing</h4>
+              <p>
+                Concurrent generation of large Excel reports; fault-tolerant
+                processing continues on partial failures and returns row-level
+                error details to users.
+              </p>
+              <p class="mb-0">
+                <strong>Tech:</strong>
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Celery/Queues</span>
+                <span class="tech-chip">SQLAlchemy</span>
+                <span class="tech-chip">Redis</span>
+                <span class="tech-chip">Excel</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Cloud Ops & Reliability -->
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/cloud.svg"
+                class="img-fluid"
+                alt="Cloud operations and reliability"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Cloud Operations & Reliability</h4>
+              <p>
+                Built/monitored services on AWS; debugged queue failures by
+                adjusting log levels, re-processing messages, and coordinating
+                manual fallback when needed to ensure continuity.
+              </p>
+              <p class="mb-0">
+                <strong>Tech:</strong>
+                <span class="tech-chip"
+                  >AWS (S3, CloudWatch, Secrets, Queues)</span
+                >
+                <span class="tech-chip">Docker</span>
+                <span class="tech-chip">Kubernetes (k9s)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ======= My Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="section-title">
-          <h2>My Portfolio</h2>
-          <p>
-            Some of my projects are listed below. Feel free to contact me with
-            any questions.
-          </p>
+          <h2>Archived Projects</h2>
+          <p>Earlier student projects and experiments.</p>
         </div>
         <div class="row portfolio-container">
-
           <!-- SweetLand Project -->
           <div class="col-lg-6 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img">
@@ -120,96 +247,96 @@
               </div>
             </div>
           </div>
-          
-         <!-- Butterflies Hunting Project -->
-              <div class="col-lg-6 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-img">
-                  <img
-                    src="assets/img/portfolio/butterflies-hunting-game.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="portfolio-info">
-                  <h4>Butterflies Hunting Game</h4>
-                  <div class="row">
-                    <div class="col-6">
-                      <p>HTML, CSS, Bootstrap, JS, JQuery, JQuery UI</p>
-                    </div>
-                    <div class="col-3">
-                      <strong
-                        ><p class="text-end">
-                          <a
-                            href="https://github.com/mihaelavalac/butterflies-hunting"
-                            target="_blank"
-                            class="details-link text-end"
-                            title="More Details"
-                            >Info</a
-                          >
-                        </p></strong
-                      >
-                    </div>
-                    <div class="col-3">
-                      <strong
-                        ><p class="text-end">
-                          <a
-                            href="https://mihaelavalac.github.io/butterflies-hunting/"
-                            target="_blank"
-                            class="details-link text-end"
-                            title="Demo"
-                            >Demo</a
-                          >
-                        </p></strong
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <!-- Tech Blog Project -->
-              <div class="col-lg-6 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-img">
-                  <img
-                    src="assets/img/portfolio/tech-blog.png"
-                    class="img-fluid"
-                    alt=""
-                  />
+          <!-- Butterflies Hunting Project -->
+          <div class="col-lg-6 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/butterflies-hunting-game.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Butterflies Hunting Game</h4>
+              <div class="row">
+                <div class="col-6">
+                  <p>HTML, CSS, Bootstrap, JS, JQuery, JQuery UI</p>
                 </div>
-                <div class="portfolio-info">
-                  <h4>Tech Blog App</h4>
-                  <div class="row">
-                    <div class="col-6">
-                      <p>CSS, Bootstrap, Handlebars,  Node.js, Express, Sequelize</p>
-                    </div>
-                    <div class="col-3">
-                      <strong
-                        ><p class="text-end">
-                          <a
-                            href="https://github.com/mihaelavalac/tech-blog"
-                            target="_blank"
-                            class="details-link text-end"
-                            title="More Details"
-                            >Info</a
-                          >
-                        </p></strong
+                <div class="col-3">
+                  <strong
+                    ><p class="text-end">
+                      <a
+                        href="https://github.com/mihaelavalac/butterflies-hunting"
+                        target="_blank"
+                        class="details-link text-end"
+                        title="More Details"
+                        >Info</a
                       >
-                    </div>
-                    <div class="col-3">
-                      <strong
-                        ><p class="text-end">
-                          <a
-                            href="https://tech-blog-mihaela.herokuapp.com/"
-                            target="_blank"
-                            class="details-link text-end"
-                            title="Demo"
-                            >Heroku Demo</a
-                          >
-                        </p></strong
+                    </p></strong
+                  >
+                </div>
+                <div class="col-3">
+                  <strong
+                    ><p class="text-end">
+                      <a
+                        href="https://mihaelavalac.github.io/butterflies-hunting/"
+                        target="_blank"
+                        class="details-link text-end"
+                        title="Demo"
+                        >Demo</a
                       >
-                    </div>
-                  </div>
+                    </p></strong
+                  >
                 </div>
               </div>
+            </div>
+          </div>
+
+          <!-- Tech Blog Project -->
+          <div class="col-lg-6 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/tech-blog.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Tech Blog App</h4>
+              <div class="row">
+                <div class="col-6">
+                  <p>CSS, Bootstrap, Handlebars, Node.js, Express, Sequelize</p>
+                </div>
+                <div class="col-3">
+                  <strong
+                    ><p class="text-end">
+                      <a
+                        href="https://github.com/mihaelavalac/tech-blog"
+                        target="_blank"
+                        class="details-link text-end"
+                        title="More Details"
+                        >Info</a
+                      >
+                    </p></strong
+                  >
+                </div>
+                <div class="col-3">
+                  <strong
+                    ><p class="text-end">
+                      <a
+                        href="https://tech-blog-mihaela.herokuapp.com/"
+                        target="_blank"
+                        class="details-link text-end"
+                        title="Demo"
+                        >Heroku Demo</a
+                      >
+                    </p></strong
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
           <!-- Recipe Generator Project -->
           <div class="col-lg-6 col-md-6 portfolio-item filter-app">
@@ -342,45 +469,45 @@
 
           <!-- Love You a Latte Project -->
           <div class="col-lg-6 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/love-you-a-latte.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Love You a Latte</h4>
-                <div class="row">
-                  <div class="col-6"><p>HTML, CSS, Bootstrap, JS</p></div>
-                  <div class="col-3">
-                    <strong
-                      ><p class="text-end">
-                        <a
-                          href="https://github.com/mihaelavalac/love-you-a-latte"
-                          target="_blank"
-                          class="details-link text-end"
-                          title="More Details"
-                          >Info</a
-                        >
-                      </p></strong
-                    >
-                  </div>
-                  <div class="col-3">
-                    <strong
-                      ><p class="text-end">
-                        <a
-                          href="https://mihaelavalac.github.io/love-you-a-latte/index.html"
-                          target="_blank"
-                          class="details-link text-end"
-                          title="Demo"
-                          >Demo</a
-                        >
-                      </p></strong
-                    >
-                  </div>
+            <div class="portfolio-img">
+              <img
+                src="assets/img/portfolio/love-you-a-latte.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="portfolio-info">
+              <h4>Love You a Latte</h4>
+              <div class="row">
+                <div class="col-6"><p>HTML, CSS, Bootstrap, JS</p></div>
+                <div class="col-3">
+                  <strong
+                    ><p class="text-end">
+                      <a
+                        href="https://github.com/mihaelavalac/love-you-a-latte"
+                        target="_blank"
+                        class="details-link text-end"
+                        title="More Details"
+                        >Info</a
+                      >
+                    </p></strong
+                  >
+                </div>
+                <div class="col-3">
+                  <strong
+                    ><p class="text-end">
+                      <a
+                        href="https://mihaelavalac.github.io/love-you-a-latte/index.html"
+                        target="_blank"
+                        class="details-link text-end"
+                        title="Demo"
+                        >Demo</a
+                      >
+                    </p></strong
+                  >
                 </div>
               </div>
+            </div>
           </div>
 
           <!-- Background Generator -->
@@ -424,8 +551,7 @@
                 </div>
               </div>
             </div>
-        </div>
-
+          </div>
         </div>
       </div>
     </section>
@@ -434,8 +560,7 @@
     <div class="section-title">
       <h2>Contributions</h2>
       <p>
-        Some of the projects to which I contributed while being an intern for
-        Dot The i Creative or as a freelance are listed below.
+        Sites I supported during an internship or small freelance engagements
       </p>
     </div>
     <div class="content">
@@ -541,7 +666,7 @@
                     href="https://www.google.com/maps/place/5842+Hallridge+Cir,+Columbus,+OH+43232/@39.9472006,-82.8445654,17z/data=!3m1!4b1!4m5!3m4!1s0x8838636ad49f0797:0xbd589c341ae7f847!8m2!3d39.9472006!4d-82.8423767"
                     target="_blank"
                     ><p><br /></p>
-                    <p>Columbus, OH </p></a
+                    <p>Columbus, OH</p></a
                   >
                 </div>
                 <div class="col-md-12">
